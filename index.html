@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href=css/reset.css>
+		<link rel="stylesheet" href=css/style.css>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="topo">
+				<a href="https://www.linkedin.com/in/joseiedo/">Linkedin</a><a href="https://github.com/joseiedo"> GitHub</a><a href="mailto:joseiedoduarte@outlook.com"> E-Mail</a>
+			</div>
+		</header>
+		<main>
+			<div class="form">
+				<div class="container">
+					<div>
+						<textarea name="Area de texto" id="textUser" cols="30" rows="10" placeholder="digite seu texto aqui..."></textarea>
+					</div>
+					<div id="output">
+						<div id="output-inicial">	
+							<div>
+								<img src="img/logoincognito.svg" id="imagem-resultado">					
+							</div>
+							<div class="texto">
+									Insira um texto para criptografar :)
+							</div>
+						</div>
+						<div id="result-body">
+							<div>
+								<p class="resultado">
+								</p>
+							</div>
+							<button onclick="copiar()" class="copybutton">
+								Copiar
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="msg-box">
+		            <p><span>&#x26a0</span> Apenas letras minúsculas e sem acento. Todos irão ser alterados para caracteres comuns.</p>
+          		</div>
+				<div class="box-button-cont">
+            		<button onclick="encripta()" class="encrypt-button">Criptografar</button>
+           		 	<button  onclick="desencripta()" class="btn-decrypt">Descriptografar</button>
+          		</div>
+			</div>
+
+		</main>
+		<footer>
+			Desenvolvido por José Iêdo.
+		</footer>
+		<script src="script.js">
+		</script>
+	</body>
