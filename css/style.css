@@ -217,12 +217,6 @@ footer {
 	  display: inline;
 	  width: 100px;
 	}
-
-	#output:hover{
-		transition: 1s;
-		box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1)
-	}
-
 }
 
 
