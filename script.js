@@ -2,7 +2,7 @@ const result = document.querySelector('.resultado')
 
 
 function aviso(){
-	alert('Jovem, digite algo antes de apertar os botões!')
+	alert('Primeiro digite algo antes de apertar em algum botão!!')
 }
 
 function tiraAcento(){
