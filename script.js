@@ -1,8 +1,11 @@
 const result = document.querySelector('.resultado')
 
-
 function aviso(){
 	alert('Primeiro digite algo antes de apertar em algum botão!!')
+}
+
+function copiar(){
+	navigator.clipboard.writeText(result.textContent)
 }
 
 function tiraAcento(){
@@ -22,7 +25,6 @@ function encripta(){
 	if(texto != ''){
 		document.getElementById("output-inicial").style.display = "none";
 		document.getElementById("result-body").style.display = "block";
-		
 		tiraAcento();
 
 		textoAtualizado = textoAtualizado.replace(/e/gim, "enter");
@@ -41,7 +43,6 @@ function desencripta(){
 	if(texto != ''){
 		document.getElementById("output-inicial").style.display = "none";
 		document.getElementById("result-body").style.display = "block";
-
 		tiraAcento();
 
 		textoAtualizado = textoAtualizado.replace(/enter/gim, "e");
@@ -54,10 +55,3 @@ function desencripta(){
 		aviso();
 	}
 }
-
-function copiar(){
-	navigator.clipboard.writeText(result.textContent)
-}
-
-
-
