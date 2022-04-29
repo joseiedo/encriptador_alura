@@ -50,6 +50,7 @@ main {
 	font-family: var(--main-font);
 	font-weight: bold;
 	padding: 1em;
+	margin-right: 30px;
 	font-size: 30px;
 	line-height: 1.4;
 	width: 700px;
@@ -158,6 +159,7 @@ button:hover {
 .copybutton {
   text-align: center;
   position: sticky;
+  margin-top: 2rem;
   bottom: 2rem;
   width: 100%;
 }
@@ -170,6 +172,7 @@ button:hover {
 }
 
 footer{
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -182,6 +185,10 @@ footer{
 		width: auto;
 		height: 200px;
 		max-width: 100%;
+	}
+
+	#textInput{
+		margin-right: 0px;
 	}
 
 	#result-body, #output-inicial{
