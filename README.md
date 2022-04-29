@@ -19,7 +19,7 @@ Aplicativo web que criptografa e descriptografa textos seguindo a seguinte cifra
 Deploy do projeto: https://joseiedo.github.io/encriptador-alura/
 
 
-##Apresentação do layout
+##Apresentação visual do projeto
 <div align="center">
   <a href="https://github.com/joseiedo">
     <img src="https://user-images.githubusercontent.com/98621042/165994384-485315a0-e97b-435e-81bd-b8d5fb920b49.jpg"/>
