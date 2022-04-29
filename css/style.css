@@ -52,14 +52,11 @@ main {
 	padding: 1em;
 	font-size: 30px;
 	line-height: 1.4;
-
 	width: 700px;
 	max-width: 50%;
 	color: var(--main-color);
 	background: #EFEFEF;
 	border-radius: var(--default-radius);
-
-
 	resize: none;
 	border: none;
 	outline: none;
@@ -78,13 +75,9 @@ main {
 #output-inicial {
 	position: relative;
 	padding: 20px;
-
 	height: 700px;
 	width: 300px;
-
-
 	border-radius: var(--default-radius);
-
 	transition: 1s;
 }
 
@@ -110,13 +103,9 @@ main {
 	display: none;
 	position: relative;
 	padding: 20px;
-
 	height: 700px;
 	width: 300px;
-
-
 	border-radius: var(--default-radius);
-
 	transition: 1s;
 }
 
@@ -151,12 +140,10 @@ button {
   width: 20.8rem;
   border: 1px solid var(--border-button);
   border-radius: 30px;
-
   color: var(--font-color);
   font-weight: bold;
   font-size: 20px;
   font-family: var(--main-font);
-
   background: var(--default-button-color);
   cursor: pointer;
   transition: 300ms;
@@ -182,8 +169,6 @@ button:hover {
   margin-right: 20px;
 }
 
-
-
 footer{
 	text-align: center;
 }
@@ -195,6 +180,7 @@ footer{
 
 	#textInput, #output-inicial, #result-body{
 		width: auto;
+		height: 200px;
 		max-width: 100%;
 	}
 
@@ -205,5 +191,9 @@ footer{
 	.container-principal{
 		flex-direction: column;
 		width: auto;
+	}
+
+	#imagem-resultado{
+		display: none;
 	}
 }
