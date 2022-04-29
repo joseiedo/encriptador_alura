@@ -32,7 +32,15 @@ header ul li a{
 	color: var(--background-color);;
 	font-weight: bold;
 	font-size: 22px;
+	transition: 300ms;
 }
+
+header ul li a:hover{
+	transition: 1.2s;
+	font-size: 25px;
+}
+
+
 
 main {
 	margin-top: 20px;
