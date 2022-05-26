@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Encriptador</title>
-		<link rel="stylesheet" href=css/reset.css>
-		<link rel="stylesheet" href=css/style.css>
- 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
-	</head>
+<html lang="en">
 
-	<body>
-		<header>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header-bg">
+		<div class="header-container">
+			<img id="logoalura" src="./img/logoalura.svg" alt="">
+			<img src="./img/encriptador.svg" alt="">
 			<ul>
-				<li><a href="https://www.linkedin.com/in/joseiedo/">Linkedin</a></li>
-				<li><a href="https://github.com/joseiedo">GitHub</a></li>
-				<li><a href="mailto:joseiedoduarte@outlook.com"> E-mail</a></li>
+				<li><a href="https://www.linkedin.com/in/joseiedo/"><img src="./img/linkedIn.svg" alt="linkedIn"></a></li>
+				<li><a href="https://github.com/joseiedo"><img src="./img/github.svg" alt="github"></a></li>
 			</ul>
-		</header>
-		<main>
-				<div class="container-principal">
-					<textarea name="Area de texto" id="textInput" cols="30" rows="10" placeholder="digite seu texto aqui..."></textarea>
-					<div id="output-inicial">	
-						<div>
-							<img src="img/logoincognito.svg" id="imagem-resultado">		
-						</div>
-						<h3>
-							Insire um texto para criptografar!
-						</h3>
-					</div>
-					<div id="result-body">
-						<div>
-						<p class="resultado"></p>
-						</div>
-						<button onclick="copiar()" class="copybutton">Copiar</button>
-					</div>
-				</div>
-				<div class="warning">
-		            <p><span>&#x26a0</span> Apenas letras minúsculas e sem acento. Todos irão ser alterados para caracteres comuns.</p>
-          		</div>
-				<div class="container-button">
-            		<button onclick="encripta()" class="encrypt-button">Criptografar</button>
-           		 	<button  onclick="desencripta()">Descriptografar</button>
-          		</div>
-		</main>
-		<footer>
-			Desenvolvido por José Iêdo.
-		</footer>
-		<script src="script.js"></script>
-	</body>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<textarea name="areadotexto" id="textInput" placeholder="digite seu texto aqui..."></textarea>
+			<div class="botoes">
+				<button>criptografar</button>
+				<button id="btn-descriptografar">descriptografar</button>
+			</div>
+
+		</div>
+		<div id="output-inicial">
+			<div>
+				<img src="img/logoincognito.svg" id="imagem-resultado">
+				<p>
+					apenas esperando um texto para ser encriptado...
+				</p>
+			</div>
+
+		</div>
+	</main>
+
+	<footer>
+		<p>Desenvolvido por José Iêdo.</p>
+	</footer>
+</body>
+
+
+</html>
