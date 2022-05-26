@@ -27,8 +27,8 @@
 		<div class="container">
 			<textarea name="areadotexto" id="textInput" placeholder="digite seu texto aqui..."></textarea>
 			<div class="botoes">
-				<button>criptografar</button>
-				<button id="btn-descriptografar">descriptografar</button>
+				<button onclick="encripta()">criptografar</button>
+				<button id="btn-descriptografar" onclick="desencripta()">descriptografar</button>
 			</div>
 
 		</div>
@@ -39,14 +39,19 @@
 					apenas esperando um texto para ser encriptado...
 				</p>
 			</div>
-
+		</div>
+		<div id="result-body">
+			<div>
+				<p class="resultado"></p>
+			</div>
+			<button onclick="copiar()" class="copybutton">Copiar</button>
 		</div>
 	</main>
 
 	<footer>
 		<p>Desenvolvido por José Iêdo.</p>
 	</footer>
+	<script src="./script.js"></script>
 </body>
-
 
 </html>
